@@ -28,6 +28,24 @@ public class MainBox {
 //        System.out.println(volume2); // 0.0
         box2.showVolume();
 
+        Box current = new Box(10);
+        Box another = new Box(20);
+        int result = current.compare(another);
+        System.out.println(result);
 
+        Box current2 = new Box(5);
+        Box another2 = new Box(current2);
+        current2.showVolume();
+        another2.showVolume();
+
+        Box current3 = new Box(3);
+        Box another3 = current3.copy();
+        current3.showVolume();
+        another3.showVolume();
+
+        Box current4 = new Box(2);
+        Box another4 = current4.increase();
+        current4.showVolume();
+        another4.showVolume();
     }
 }
