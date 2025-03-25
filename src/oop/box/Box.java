@@ -29,6 +29,10 @@ public class Box {
         this(another.length, another.width, another.height);
     }
 
+    public void showInfo() {
+        System.out.println("width: " + width + " length: " + length + " height: " + height);
+    }
+
     void setDimens(double length, double width, double height) {
         this.length = length;
         this.width = width;
