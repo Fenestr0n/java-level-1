@@ -9,7 +9,7 @@ public class HW {
         Chef chef = new Chef();
 
         ArrayList<Worker> workers = new ArrayList<>();
-        workers.add(director);
+//        workers.add(director);
         workers.add(programmer);
         workers.add(chef);
         for (Worker worker : workers) {
